@@ -3,11 +3,17 @@
 ## Project Overview
 This project analyzes the Q4 2020 sales data of Australian Apparel Limited (AAL) to provide insights into state-wise and category-wise performance. The goal is to help the company make data-driven investment and marketing decisions.
 
-## Features
-- **Data Wrangling**: Cleaning, handling missing values, and normalizing sales data.
-- **Data Analysis**: Performing statistical analysis on sales trends across different states and groups.
-- **Data Visualization**: Creating visual reports using Seaborn and Matplotlib.
-- **Report Generation**: Compiling findings into a Jupyter Notebook.
+## 📊 Features
+
+- 📅 **Daily Sales Trends**  
+- 📍 **State-wise & Group-wise Sales**  
+- ⏰ **Sales by Time of Day**  
+- 🔮 **30-Day Sales Forecasting** using Facebook Prophet  
+- 🧠 **Customer Segmentation** using KMeans Clustering  
+- 🎛️ **Interactive Filters** by:
+  - State
+  - Customer Group (Kids, Men, Women, Seniors)
+  - Time of Day (Morning, Afternoon, Evening)
 
 ## Dataset
 - **Source**: Provided CSV file containing sales data for Q4 2020.
@@ -46,11 +52,3 @@ This project analyzes the Q4 2020 sales data of Australian Apparel Limited (AAL)
 - **Least profitable category:** Seniors' apparel
 - **Time-of-day insights:** Sales peak in the afternoon and early evening.
 
-## Recommendations
-- Implement targeted marketing in low-performing states.
-- Introduce discounts and promotions for the seniors' category.
-- Optimize sales strategies based on peak shopping hours.
-
-## Technologies Used
-- **Programming Language:** Python
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
